@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mentle: Minute Math</title>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+      });
+    </script>
+    </script src="js/js.js"></script>
+    <link rel="stylesheet" href="css.stylesheet.css">
+  </head>
+
+  <body>
+    <div id="pageContainer">
+    	<h1 class=center>M<span class="shrink">&#8712;</span>ntle: M&#953;nute M<span class="shrink">\( \Delta \)</span>th</h1>
+    	<div id="settingsRow">
+    		<div id="plusTog" class="button setting selected">
+    			<p>\( + \)</p>
+    		</div>
+    		<div id="minusTog" class="button setting selected">
+    			<p>\( - \)</p>
+    		</div>
+    		<div id="timesTog" class="button setting">
+    			<p>\( \times\)</p>
+    		</div>
+    		<div id="divideTog" class="button setting">
+    			<p>\( \div \)</p>
+    		</div>
+    	</div><!-- settings row -->
+    	<div id="diffRow">
+    		<div id="mild" class="button diff selected">
+    			<p>Mild</p>
+    		</div>
+    		<div id="med" class="button diff">
+    			<p>Med</p>
+    		</div>
+    		<div id="spicy" class="button diff">
+    			<p>Spicy</p>
+    		</div>
+    	</div>
+    	<div id="startRow">
+    		<div id="start" class="button">
+    			<p class="center">
+    				Start
+    			</p>
+    		</div><!-- start button -->
+    		<div id="timer">
+    			<p id="timer_p" class="center">
+    			</p>
+    		</div>
+    	</div>
+    
+    	<div id="flexContainer">
+    	</div><!-- flexContainer -->
+    	
+    	<div id="qrContainer">
+    	</div><!-- qr container -->
+    </div> <!-- pageContainer -->
+  </body>
+</html>
