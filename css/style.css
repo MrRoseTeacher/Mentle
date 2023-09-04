@@ -41,12 +41,6 @@ p{
 	padding-top:0.3rem;
 }
 
-.setting:hover{
-	color: white;
-	background: #0E2CC4;
-	cursor: pointer;
-}
-
 #settingsRow .selected{
 	color: white;
 	background: #0E2CC4;
@@ -59,12 +53,6 @@ p{
 .diff{
 	border: red solid 2px;
 	color: red;
-}
-
-.diff:hover{
-	background: red;
-	color: white;
-	cursor: pointer;
 }
 
 #diffRow .selected{
@@ -101,12 +89,6 @@ p{
 	vertical-align: top;
 }
 
-#start:hover{
-	background: white;
-	color: green;
-	cursor: pointer;
-}
-
 #start:active{
 	background: green;
 	color:white;
@@ -123,10 +105,6 @@ p{
 	font-size: 1.25em;
 	line-height: 3rem;
 	//border: 1px solid black;
-}
-
-#timer:hover{
-	cursor: pointer;
 }
 
 .shrink{
@@ -181,6 +159,17 @@ p{
 	margin: 0 auto;
 }
 
+#qrContainer{
+	position:absolute;
+	width: 10vw;
+	left: 89vw;
+	top: 0;
+}
+
+#qrContainer img{
+	width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   html {
     font-size:18px;
@@ -196,13 +185,23 @@ p{
 	}
 }
 
-#qrContainer{
-	position:absolute;
-	width: 10vw;
-	left: 89vw;
-	top: 0;
-}
-
-#qrContainer img{
-	width: 100%;
+@media (hover: hover) {
+	#start:hover{
+		background: white;
+		color: green;
+		cursor: pointer;
+	}
+	#timer:hover{
+		cursor: pointer;
+	}
+	.diff:hover{
+		background: red;
+		color: white;
+		cursor: pointer;
+	}
+	.setting:hover{
+		color: white;
+		background: #0E2CC4;
+		cursor: pointer;
+	}
 }
